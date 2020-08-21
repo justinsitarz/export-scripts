@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import sys
 
-api_key = '05ec5012-1cfb-44ac-8bdf-3390a0be5322'
+api_key = '<your apu key>'
 integration_data_csv = './integrationList.csv' # set this to your desired path or leave the same to generate csv in same directory
 api_headers = {'Content-Type': 'application/json','Authorization':'GenieKey ' + api_key}
 list_integration_url = "https://api.opsgenie.com/v2/integrations/" 
